@@ -84,6 +84,10 @@ namespace Prova
 
             dgvProd.Rows.Clear();
             txtProduto.Focus();
+            txtProduto.Text = "";
+            txtAlt.Text = "";
+            txtQuant.Text = "";
+            txtValor.Text = "";
         }
 
         private void btnCancel_Click(object sender, EventArgs e)
@@ -92,6 +96,11 @@ namespace Prova
 
             dgvProd.Rows.Clear();
             txtProduto.Focus();
+
+            txtProduto.Text = "";
+            txtAlt.Text = "";
+            txtQuant.Text = "";
+            txtValor.Text = "";
         }
 
         private void btnFim_Click(object sender, EventArgs e)
